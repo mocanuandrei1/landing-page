@@ -2,6 +2,7 @@
   "name": "landing-abcenergy",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mocanuandrei1.github.io/landing-page",
   "type": "module",
   "scripts": {
     "dev": "vite",
