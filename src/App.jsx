@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/cerere-trimisa" element={<ThankYou />} />
+        <Route path="/landing-page" element={<Landing />} />
+        <Route path="/landing-page/cerere-trimisa" element={<ThankYou />} />
       </Routes>
       <Footer />
     </BrowserRouter>
