@@ -1,0 +1,13 @@
+.react-multiple-carousel__arrow {
+  background-color: black !important;
+}
+.carousel-item-padding-40-px {
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item-padding-40-px {
+    margin: 0px;
+    padding: 0 50px;
+  }
+}
