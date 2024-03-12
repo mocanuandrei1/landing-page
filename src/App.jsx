@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/landing-page" element={<Landing />} />
-        <Route path="/landing-page/cerere-trimisa" element={<ThankYou />} />
+        <Route path="/cerere-trimisa" element={<ThankYou />} />
       </Routes>
       <Footer />
     </BrowserRouter>

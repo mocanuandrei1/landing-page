@@ -1,6 +1,17 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../assets/styles/CertificationSection.css";
+import document1 from "../assets/images/document-section/document1.webp";
+import document2 from "../assets/images/document-section/document2.webp";
+import document3 from "../assets/images/document-section/document3.webp";
+import document4 from "../assets/images/document-section/document4.webp";
+import document5 from "../assets/images/document-section/document5.webp";
+import document6 from "../assets/images/document-section/document6.webp";
+import document7 from "../assets/images/document-section/document7.webp";
+import document8 from "../assets/images/document-section/document8.webp";
+import document9 from "../assets/images/document-section/document9.webp";
+import document10 from "../assets/images/document-section/document10.webp";
+import document11 from "../assets/images/document-section/document11.webp";
 
 const CertificationSection = () => {
   const responsive = {
@@ -43,70 +54,37 @@ const CertificationSection = () => {
         itemClass="carousel-item-padding-40-px"
       >
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergy.ro/files/files/certificat-iso-14001-11492.jpg"
-            alt=""
-          />
+          <img src={document1} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergy.ro/files/files/certificat-iso-45001-109869.jpg"
-            alt=""
-          />
+          <img src={document2} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergy.ro/files/files/certificat-iso-9001-86836.jpg"
-            alt=""
-          />
+          <img src={document3} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/1-autorizatie-iscir-pt-a1-scaled-228956.jpg"
-            alt=""
-          />
+          <img src={document4} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/7-autorizatie-iscir-pt-c9-scaled-18962.jpg"
-            alt=""
-          />
+          <img src={document5} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/9-autorizatie-iscir-pt-c11-scaled-947851.jpg"
-            alt=""
-          />
+          <img src={document6} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/1wjkiy-v-966207.jpg"
-            alt=""
-          />
+          <img src={document7} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/11-autorizatie-anre-gaze-tip-edib-scaled-59660.jpg"
-            alt=""
-          />
+          <img src={document8} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/12-autorizatie-anre-gaze-tip-pdib-scaled-989020.jpg"
-            alt=""
-          />
+          <img src={document9} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergyro/files/files/13-autorizatie-anre-electrice-04-kw-scaled-358038.jpg"
-            alt=""
-          />
+          <img src={document10} alt="Autorizatie" />
         </div>
         <div>
-          <img
-            src="https://gomagcdn.ro/domains2/abcenergy.ro/files/files/atestare-elco-pt-abc-control-1-708614.png"
-            alt=""
-          />
+          <img src={document11} alt="Autorizatie" />
         </div>
       </Carousel>
     </section>

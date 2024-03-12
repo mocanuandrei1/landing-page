@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import desktopImage from "../assets/images/DesktopHeroImage.webp";
-import mobileImage from "../assets/images/MobileHeroImage.webp";
+import desktopImage from "../assets/images/DesktopHeroImage2.webp";
+import mobileImage from "../assets/images/MobileHeroImage2.webp";
 import CountdownTimer from "./HeroSectionCountdown";
 
 const HeroSection = () => {

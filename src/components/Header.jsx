@@ -1,14 +1,12 @@
 import React from "react";
 import PhoneIcon from "../assets/icons/phone-line-icon.svg?react";
+import logo from "../assets/images/header/logo.webp";
 
 const Header = () => {
   return (
     <div className="py-5 shadow-lg z-50 relative">
       <div className="m-auto max-w-screen-3xl flex items-center md:justify-between justify-center">
-        <img
-          src="https://gomagcdn.ro/domains2/abcenergy.ro/files/company/logo1136.png"
-          alt="ABC Energy"
-        />
+        <img src={logo} alt="ABC Energy" />
         <div>
           <a
             href="tel:0744972001"

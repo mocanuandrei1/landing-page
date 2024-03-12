@@ -1,5 +1,5 @@
 import React from "react";
-import CTAImage from "../assets/images/CTAImage.webp";
+import CTAImage from "../assets/images/cta-section/CTAImage.webp";
 import { useMediaQuery } from "react-responsive";
 
 const CTASection = () => {

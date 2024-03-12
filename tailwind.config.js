@@ -18,6 +18,7 @@ export default {
       "energy-blue": "#007bff",
       "energy-pink": "#f41559",
       "energy-grey": "#6f767f",
+      "energy-red": "#d30c2f",
     },
   },
   plugins: [require("flowbite/plugin")],

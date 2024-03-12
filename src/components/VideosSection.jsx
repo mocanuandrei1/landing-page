@@ -1,5 +1,10 @@
 import React from "react";
 import "../assets/styles/VideosSection.css";
+import sageata1 from "../assets/images/video-section/poze-landing-169401.webp";
+import sageata2 from "../assets/images/video-section/poze-landing-366971.webp";
+import sageata3 from "../assets/images/video-section/poze-landing-777001.webp";
+import sageata4 from "../assets/images/video-section/poze-landing-831098.webp";
+import YouTube from "react-youtube";
 
 const VideosSection = () => {
   return (
@@ -20,21 +25,12 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPELE DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <iframe
-              src="https://www.youtube.com/embed/xSJcdy-NgFM"
-              allowFullScreen
-              type="text/html"
-            ></iframe>
+            <YouTube className="w-full" videoId="xSJcdy-NgFM" allowFullScreen />
           </div>
         </div>
         <div className="sageata1">
           <div className="sageata">
-            <img
-              width="100"
-              height="100"
-              src="https://gomagcdn.ro/domains2/abcenergy.ro/files/product/large/poze-landing-366971.png"
-              alt="arrow"
-            />
+            <img width="100" height="100" src={sageata1} alt="frunze" />
           </div>
         </div>
         <div className="videoSectiune video2">
@@ -43,21 +39,12 @@ const VideosSection = () => {
             <h3 className="titlu-video">DE CĂLDURĂ POTRIVITĂ?</h3>
           </div>
           <div>
-            <iframe
-              src="https://www.youtube.com/embed/4KzwOoMYIRM"
-              allowFullScreen
-              type="text/html"
-            ></iframe>
+            <YouTube className="w-full" videoId="4KzwOoMYIRM" allowFullScreen />
           </div>
         </div>
         <div className="sageata2">
           <div className="sageata">
-            <img
-              width="100"
-              height="100"
-              src="https://gomagcdn.ro/domains2/abcenergy.ro/files/product/large/poze-landing-169401.png"
-              alt="arrow"
-            />
+            <img width="100" height="100" src={sageata2} alt="frunze" />
           </div>
         </div>
         <div className="videoSectiune video3">
@@ -66,20 +53,12 @@ const VideosSection = () => {
             <h3 className="titlu-video">DE CĂLDURĂ ARISTON?</h3>
           </div>
           <div>
-            <iframe
-              src="https://www.youtube.com/embed/o9cKOlwIxUk"
-              allowFullScreen
-            ></iframe>
+            <YouTube className="w-full" videoId="o9cKOlwIxUk" allowFullScreen />
           </div>
         </div>
         <div className="sageata3">
           <div className="sageata">
-            <img
-              width="100"
-              height="100"
-              src="https://gomagcdn.ro/domains2/abcenergy.ro/files/product/large/poze-landing-777001.png"
-              alt="arrow"
-            />
+            <img width="100" height="100" src={sageata3} alt="frunze" />
           </div>
         </div>
         <div className="videoSectiune video4">
@@ -88,20 +67,12 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPA DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <iframe
-              src="https://www.youtube.com/embed/-K_oLsvO7vM"
-              allowFullScreen
-            ></iframe>
+            <YouTube className="w-full" videoId="-K_oLsvO7vM" allowFullScreen />
           </div>
         </div>
         <div className="sageata4">
           <div className="sageata sageata4">
-            <img
-              width="100"
-              height="100"
-              src="https://gomagcdn.ro/domains2/abcenergy.ro/files/product/large/poze-landing-831098.png"
-              alt="arrow"
-            />
+            <img width="100" height="100" src={sageata4} alt="frunze" />
           </div>
         </div>
         <div className="videoSectiune video5">
@@ -110,10 +81,7 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPEI DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <iframe
-              src="https://www.youtube.com/embed/ke4goJJlj7o"
-              allowFullScreen
-            ></iframe>
+            <YouTube className="w-full" videoId="ke4goJJlj7o" allowFullScreen />
           </div>
         </div>
       </div>

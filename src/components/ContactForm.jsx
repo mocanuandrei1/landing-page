@@ -83,7 +83,7 @@ const ContactForm = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex max-w-2xl p-10 rounded-xl mx-auto flex-col gap-4 bg-energy-pink"
+        className="flex max-w-2xl p-10 rounded-xl mx-auto flex-col gap-4 bg-energy-red"
       >
         <div>
           <div className="mb-2">

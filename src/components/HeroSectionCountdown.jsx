@@ -22,7 +22,7 @@ const CountdownTimer = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="mt-[-1px] flex items-center justify-evenly md:justify-center md:gap-10 bg-energy-pink flex-wrap">
+    <div className="mt-[-1px] flex items-center justify-evenly md:justify-center md:gap-10 bg-energy-red flex-wrap">
       <div className="flex flex-col p-2 justify-center items-center text-white">
         <span className="text-2xl font-['Jost-Bold'] min-[320px]:text-4xl md:text-2xl lg:text-4xl">
           <span>{timeLeft.days}</span>

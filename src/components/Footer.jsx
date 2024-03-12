@@ -1,11 +1,12 @@
 import React from "react";
 import PhoneIcon from "../assets/icons/phone-line-icon.svg?react";
+import logo from "../assets/images/header/logo.webp";
 
 const Footer = () => {
   return (
     <footer className="shadow-[0_-10px_15px_-3px_rgb(0,0,0,0.1)] relative">
       <div className="m-auto max-w-screen-3xl p-5">
-        <img src="https://gomagcdn.ro/domains2/abcenergy.ro/files/company/logo1136.png" />
+        <img src={logo} />
         <div className=" gap-2 mx-[30px] text-sm flex flex-col my-5">
           <a
             href="tel:0744972001 "
