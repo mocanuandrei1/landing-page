@@ -24,28 +24,28 @@ const CountdownTimer = ({ targetDate }) => {
   return (
     <div className="mt-[-1px] flex items-center justify-evenly md:justify-center md:gap-10 bg-energy-pink flex-wrap">
       <div className="flex flex-col p-2 justify-center items-center text-white border-4 m-2 rounded-lg">
-        <span className="text-2xl font-['Jost-Bold'] min-[320px]:text-4xl md:text-2xl lg:text-4xl">
-          <span>{timeLeft.days}</span>
+        <span className="text-sm font-bold min-[320px]:text-2xl md:text-2xl lg:text-4xl">
+          {timeLeft.days}
         </span>
-        ZILE
+        <span>ZILE</span>
       </div>
       <div className="flex flex-col p-2 justify-center items-center text-white border-4 m-2 rounded-lg">
-        <span className="text-2xl font-['Jost-Bold'] min-[320px]:text-4xl md:text-2xl lg:text-4xl">
-          <span>{timeLeft.hours}</span>
+        <span className="text-sm font-bold min-[320px]:text-2xl md:text-2xl lg:text-4xl">
+          {timeLeft.hours}
         </span>
-        ORE
+        <span>ORE</span>
       </div>
       <div className="flex flex-col p-2 justify-center items-center text-white border-4 m-2 rounded-lg">
-        <span className="text-2xl font-['Jost-Bold'] min-[320px]:text-4xl md:text-2xl lg:text-4xl">
-          <span>{timeLeft.minutes}</span>
+        <span className="text-sm font-bold min-[320px]:text-2xl md:text-2xl lg:text-4xl">
+          {timeLeft.minutes}
         </span>
-        MINUTE
+        <span>MINUTE</span>
       </div>
       <div className="flex flex-col p-2 justify-center items-center text-white border-4 m-2 rounded-lg">
-        <span className="text-2xl font-['Jost-Bold'] min-[320px]:text-4xl md:text-2xl lg:text-4xl">
-          <span>{timeLeft.seconds}</span>
+        <span className="text-sm font-bold min-[320px]:text-2xl md:text-2xl lg:text-4xl">
+          {timeLeft.seconds}
         </span>
-        SECUNDE
+        <span>SECUNDE</span>
       </div>
     </div>
   );

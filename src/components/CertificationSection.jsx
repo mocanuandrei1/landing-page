@@ -41,7 +41,7 @@ const CertificationSection = () => {
     <section className="landingPageSection text-center">
       <div>
         <h2 className="pb-4">SUNTEM MÂNDRI DE UN PORTOFOLIU LARG DE</h2>
-        <h2>CERTIFICĂRI ISO, AUTORIZAȚII ISCIR, ANRE, AGFR</h2>
+        <h2 className="pb-4">CERTIFICĂRI ISO, AUTORIZAȚII ISCIR, ANRE, AGFR</h2>
       </div>
       <Carousel
         draggable={true}

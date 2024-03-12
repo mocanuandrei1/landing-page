@@ -70,7 +70,7 @@ const CardsSection = () => {
 
   return (
     <section className="landingPageSection text-center px-5">
-      <h2 className="mb-10">DE CE SĂ ALEGI ABC ENERGY ?</h2>
+      <h2 className="md:mb-10">DE CE SĂ ALEGI ABC ENERGY ?</h2>
       <div className="landing-servicii-container">
         <div className="landing-serviciu-container" id="section1">
           <div className="icon-container">

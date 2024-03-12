@@ -6,7 +6,7 @@ const PartenersSection = () => {
   return (
     <section className="landingPageSection">
       <h2 className="text-center tracking-wider mb-10">PARTENERI OFICIALI</h2>
-      <div className="flex justify-around gap-20 items-center flex-wrap md:flex-nowrap my-20">
+      <div className="flex justify-around gap-10 md:gap-20 items-center flex-wrap md:flex-nowrap my-10 md:my-20">
         <div className="md:basis-1/2 basis-full flex items-center justify-center">
           <img
             className="max-w-[50%]"

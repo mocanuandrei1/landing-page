@@ -35,7 +35,7 @@
 .sectiuneVideoclipuri {
   display: grid;
   grid-template-columns: 28% 8% 28% 8% 28%;
-  grid-template-rows: minmax(0, 600px) 120px minmax(0, 600px);
+  grid-template-rows: minmax(0, 450px) 120px minmax(0, 450px);
   height: 100%;
   gap: 0px 0px;
 }

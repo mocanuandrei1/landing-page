@@ -12,12 +12,10 @@ const VideosSection = () => {
   return (
     <section className="sectiune-video landingPageSection">
       <div className="sectiune-video-headings">
-        <h2 className="landingHeadingsText">
-          VREI O SOLUȚIE OPTIMĂ PENTRU LOCUINȚA TA?
-        </h2>
-        <h2 className="landingHeadingsText">
+        <h2 className="mb-2">VREI O SOLUȚIE OPTIMĂ PENTRU LOCUINȚA TA?</h2>
+        <h2>
           AFLĂ CE SPUNE{" "}
-          <span className="span-sectiune-video">UN SPECIALIST!</span>
+          <span className="span-sectiune-video">SPECIALISTUL ARISTON!</span>
         </h2>
       </div>
       <div className="sectiuneVideoclipuri">

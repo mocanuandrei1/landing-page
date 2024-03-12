@@ -83,7 +83,7 @@ const ContactForm = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex max-w-4xl p-10 rounded-xl mx-auto flex-col gap-4 bg-energy-pink"
+        className="flex max-w-4xl md:p-10 p-5 rounded-xl mx-auto flex-col gap-4 bg-energy-pink"
       >
         <div>
           <div className="mb-2">
@@ -191,11 +191,17 @@ const ContactForm = () => {
             </Label>
           </div>
         </fieldset>
-        <div className="flex items-center gap-2 p-2">
+        <div className="flex items-center gap-2 p-2 border-2 rounded-2xl">
           <Checkbox id="cookies" required />
           <Label htmlFor="cookies" className="text-white text-lg">
             Sunt de acord cu gestionarea datelor mele personale în conformitate
-            cu Politica de confidențialitate ABC ENERGY
+            cu{" "}
+            <a
+              className="text-black"
+              href="https://www.abcenergy.ro/politica-de-confidentialitate"
+            >
+              Politica de confidențialitate ABC ENERGY
+            </a>
           </Label>
         </div>
         <Button className=" bg-energy-blue rounded-3xl py-2" type="submit">
