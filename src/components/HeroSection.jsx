@@ -1,9 +1,8 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import desktopImage from "../assets/images/DesktopHeroImage3.webp";
-import mobileImage from "../assets/images/MobileHeroImage4.webp";
+import desktopImage from "../assets/images/DesktopHeroImage4.webp";
+import mobileImage from "../assets/images/MobileHeroImage5.webp";
 import CountdownTimer from "./HeroSectionCountdown";
-import ButtonCTA from "./ButtonCTA";
 
 const HeroSection = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });

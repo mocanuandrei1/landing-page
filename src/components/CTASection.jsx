@@ -33,8 +33,8 @@ const CTASection = () => {
               energetic: <b>pompa de căldură</b> (centrală cu pompă de căldură
               sau varianta cu centrală deja montată){" "}
               <b>și întregul pachet de consiliere necesar</b>. Cu pompele de
-              căldură ABC Energy, poți reduce emisiile de gaze cu efect de seră
-              și consumul de energie, <b>contribuind activ</b> la un{" "}
+              căldură Ariston, poți reduce emisiile de gaze cu efect de seră și
+              consumul de energie, <b>contribuind activ</b> la un{" "}
               <b>viitor mai verde</b>, și{" "}
               <b>economisind o valoare substanțială de bani pe termen lung</b>{" "}
               pentru tine și întreaga familie, luând în considerare anumite
@@ -73,8 +73,8 @@ const CTASection = () => {
               optime energetic: <b>pompa de căldură</b> (centrală cu pompă de
               căldură sau varianta cu centrală deja montată){" "}
               <b>și întregul pachet de consiliere necesar</b>. Cu pompele de
-              căldură ABC Energy, poți reduce emisiile de gaze cu efect de seră
-              și consumul de energie,{" "}
+              căldură Ariston, poți reduce emisiile de gaze cu efect de seră și
+              consumul de energie,{" "}
               <b>contribuind activ la protejarea mediului</b> înconjurător, și{" "}
               <b>economisind o valoare substanțială de bani</b> pe termen lung
               pentru tine și întreaga familie, luând în considerare anumite
