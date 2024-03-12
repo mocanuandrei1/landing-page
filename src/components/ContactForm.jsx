@@ -49,7 +49,7 @@ const ContactForm = () => {
 
     emailjs
       .sendForm("service_2by0d8j", "template_8kpkbnc", form.current, {
-        publicKey: "1sqisZJuG1Eyp-fqX",
+        publicKey: "test_1sqisZJuG1Eyp-fqX",
       })
       .then(
         () => {

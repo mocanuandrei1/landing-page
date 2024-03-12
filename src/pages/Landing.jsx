@@ -7,6 +7,7 @@ import CardsSection from "../components/CardsSection";
 import CertificationSection from "../components/CertificationSection";
 import ContactForm from "../components/ContactForm";
 import ButtonCTA from "../components/ButtonCTA";
+import Footer from "../components/Footer";
 
 const Landing = () => {
   return (
@@ -20,6 +21,7 @@ const Landing = () => {
       <ButtonCTA text="COMPLETEAZĂ FORMULARUL ACUM!" />
       <CertificationSection />
       <ContactForm />
+      <Footer />
     </div>
   );
 };

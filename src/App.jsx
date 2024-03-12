@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import ThankYou from "./pages/ThankYou";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <Route path="/landing-page" element={<Landing />} />
         <Route path="/cerere-trimisa" element={<ThankYou />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
