@@ -9,7 +9,7 @@ const CTASection = () => {
     <section className="landingPageSection px-5">
       <div className="mb-10">
         <h2 className="text-center mb-5">
-          DESCOPERĂ POMPELE DE CĂLDURĂ ABC ENERGY
+          DESCOPERĂ POMPELE DE CĂLDURĂ ARISTON
         </h2>
         <h2 className="text-center">
           CONFORT TERMIC SUSTENABIL {""}

@@ -15,21 +15,15 @@ const ThankYou = () => {
       </div>
       <CheckIcon />
       <div class="text-center">
-        <p className="text-lg">
-          Cererea ta a fost &icirc;nregistrată cu urmatoarele informatii:
+        <p className="text-[20px]">
+          Cererea ta a fost &icirc;nregistrată cu următoarele informații:
         </p>
         <Blockquote className="my-4 border-l-4 border-gray-300 bg-gray-50 p-4 dark:border-gray-500 dark:bg-gray-800">
-          <p>Nume si prenume: {location.state.name}</p>
+          <p>Nume și Prenume: {location.state.name}</p>
           <p>E-mail: {location.state.email}</p>
-          <p>Numar de telefon: {location.state.number}</p>
-          <p>
-            De unde ati aflat de noi:{" "}
-            {location.state.socialmedia.map((element) => {
-              return <p>{element}</p>;
-            })}
-          </p>
+          <p>Telefon: {location.state.number}</p>
         </Blockquote>
-        <p className="text-xl">
+        <p className="text-[20px]">
           Apreciem interesul și timpul acordat, o să vă contactăm&nbsp;&icirc;n
           cel mai scurt timp posibil.
         </p>

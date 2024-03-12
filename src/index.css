@@ -22,7 +22,7 @@
     @apply sm:text-[2.2rem];
     @apply md:text-[1.7rem];
     @apply xl:text-[1.9rem];
-    @apply 2xl:text-[2rem];
+    @apply 2xl:text-[2.2rem];
   }
 }
 

@@ -12,7 +12,6 @@ const ContactForm = () => {
     user_name: "",
     user_email: "",
     user_phone: "",
-    socialmedia: [],
   });
 
   const handleCheckboxChange = () => {
@@ -50,7 +49,7 @@ const ContactForm = () => {
 
     emailjs
       .sendForm("service_2by0d8j", "template_8kpkbnc", form.current, {
-        publicKey: "test_1sqisZJuG1Eyp-fqX",
+        publicKey: "1sqisZJuG1Eyp-fqX",
       })
       .then(
         () => {
@@ -66,7 +65,6 @@ const ContactForm = () => {
         name: formData.user_name,
         email: formData.user_email,
         number: formData.user_phone,
-        socialmedia: formData.socialmedia,
       },
     });
   };
@@ -78,26 +76,28 @@ const ContactForm = () => {
         id="redirectButtonLanding"
       >
         <h2 className="mb-4 mt-10">AFLĂ MAI MULTE!</h2>
-        <p className="text-xl">Programează-te gratuit completând formularul.</p>
+        <p className="text-[25px]">
+          Programează-te gratuit completând formularul.
+        </p>
       </div>
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex max-w-2xl p-10 rounded-xl mx-auto flex-col gap-4 bg-energy-red"
+        className="flex max-w-4xl p-10 rounded-xl mx-auto flex-col gap-4 bg-energy-pink"
       >
         <div>
           <div className="mb-2">
             <Label
               htmlFor="name"
-              value="Nume si prenume"
-              className="text-white text-lg"
+              value="Nume și Prenume*"
+              className="text-white text-xl"
             />
           </div>
           <TextInput
             id="name"
             name="user_name"
             type="text"
-            placeholder="Introdu numele tau"
+            placeholder="Introdu numele tău"
             value={formData.user_name}
             onChange={handleInputChange}
             required
@@ -107,8 +107,8 @@ const ContactForm = () => {
           <div className="mb-2">
             <Label
               htmlFor="email"
-              value="Adresa de e-mail"
-              className="text-white text-lg"
+              value="E-mail*"
+              className="text-white text-xl"
             />
           </div>
           <TextInput
@@ -125,23 +125,26 @@ const ContactForm = () => {
           <div className="mb-2 ">
             <Label
               htmlFor="telefon"
-              value="Numar de telefon"
-              className="text-white text-lg"
+              value="Telefon*"
+              className="text-white text-xl"
             />
           </div>
           <TextInput
             id="telefon"
             type="tel"
             name="user_phone"
-            placeholder="Introdu numarul tau de telefon"
+            placeholder="Introdu numărul tău de telefon"
             value={formData.user_phone}
             onChange={handleInputChange}
             required
           />
         </div>
         <fieldset className="flex max-w-md flex-col gap-4" required>
-          <legend className="mb-4 text-white text-lg">
-            Cum ai aflat de noi?
+          <legend className="mb-4 text-white text-xl">
+            Cum ai aflat de noi?*
+            {formSubmitted && !isChecked && (
+              <span className="pl-1">(acest câmp este obligatoriu)</span>
+            )}
           </legend>
           <div className="flex items-center gap-2">
             <Checkbox
@@ -150,7 +153,7 @@ const ContactForm = () => {
               value="Facebook"
               onChange={handleCheckboxChange}
             />
-            <Label htmlFor="facebook" className="text-white text-md">
+            <Label htmlFor="facebook" className="text-white text-xl">
               Facebook
             </Label>
           </div>
@@ -161,7 +164,7 @@ const ContactForm = () => {
               value="Google"
               onChange={handleCheckboxChange}
             />
-            <Label htmlFor="google" className="text-white text-md">
+            <Label htmlFor="google" className="text-white text-xl">
               Google
             </Label>
           </div>
@@ -172,7 +175,7 @@ const ContactForm = () => {
               value="Recomandare"
               onChange={handleCheckboxChange}
             />
-            <Label htmlFor="recomandare" className="text-white text-md">
+            <Label htmlFor="recomandare" className="text-white text-xl">
               Recomandare
             </Label>
           </div>
@@ -183,26 +186,21 @@ const ContactForm = () => {
               value="Ariston"
               onChange={handleCheckboxChange}
             />
-            <Label htmlFor="ariston" className="text-white text-md">
+            <Label htmlFor="ariston" className="text-white text-xl">
               Sunt deja client Ariston
             </Label>
           </div>
         </fieldset>
         <div className="flex items-center gap-2 p-2">
           <Checkbox id="cookies" required />
-          <Label htmlFor="cookies" className="text-white text-md">
+          <Label htmlFor="cookies" className="text-white text-lg">
             Sunt de acord cu gestionarea datelor mele personale în conformitate
             cu Politica de confidențialitate ABC ENERGY
           </Label>
         </div>
-        <Button className=" bg-energy-blue" type="submit">
-          <p className="text-lg">Trimite</p>
+        <Button className=" bg-energy-blue rounded-3xl py-2" type="submit">
+          <p className="text-[1.7rem] font-[Jost-Bold]">Trimite</p>
         </Button>
-        {formSubmitted && !isChecked && (
-          <p className="text-white text-center">
-            Va rugam sa ne spuneti cum ati aflat de noi. Va multumim!
-          </p>
-        )}
       </form>
     </section>
   );

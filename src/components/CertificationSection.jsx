@@ -44,7 +44,8 @@ const CertificationSection = () => {
         <h2>CERTIFICĂRI ISO, AUTORIZAȚII ISCIR, ANRE, AGFR</h2>
       </div>
       <Carousel
-        draggable={false}
+        draggable={true}
+        swipeable={true}
         responsive={responsive}
         autoPlaySpeed={1000}
         keyBoardControl={true}
