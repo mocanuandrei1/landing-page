@@ -4,7 +4,9 @@ import sageata1 from "../assets/images/video-section/poze-landing-169401.webp";
 import sageata2 from "../assets/images/video-section/poze-landing-366971.webp";
 import sageata3 from "../assets/images/video-section/poze-landing-777001.webp";
 import sageata4 from "../assets/images/video-section/poze-landing-831098.webp";
+import videoImage1 from "../assets/images/video-section/videoImage1.webp";
 import YouTube from "react-youtube";
+import LazyYoutube from "./LazyYoutube";
 
 const VideosSection = () => {
   return (
@@ -25,7 +27,11 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPELE DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <YouTube className="w-full" videoId="xSJcdy-NgFM" allowFullScreen />
+            <LazyYoutube
+              videoId="xSJcdy-NgFM"
+              videoImage={videoImage1}
+              videoImageAlt="Cum functioneaza pompele de caldura?"
+            />
           </div>
         </div>
         <div className="sageata1">
@@ -39,7 +45,11 @@ const VideosSection = () => {
             <h3 className="titlu-video">DE CĂLDURĂ POTRIVITĂ?</h3>
           </div>
           <div>
-            <YouTube className="w-full" videoId="4KzwOoMYIRM" allowFullScreen />
+            <LazyYoutube
+              videoId="4KzwOoMYIRM"
+              videoImage={videoImage1}
+              videoImageAlt="Cum sa aleg pompa de caldura potrivita?"
+            />
           </div>
         </div>
         <div className="sageata2">
@@ -53,7 +63,11 @@ const VideosSection = () => {
             <h3 className="titlu-video">DE CĂLDURĂ ARISTON?</h3>
           </div>
           <div>
-            <YouTube className="w-full" videoId="o9cKOlwIxUk" allowFullScreen />
+            <LazyYoutube
+              videoId="o9cKOlwIxUk"
+              videoImage={videoImage1}
+              videoImageAlt="De ce sa aleg pompele de caldura ariston?"
+            />
           </div>
         </div>
         <div className="sageata3">
@@ -67,7 +81,11 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPA DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <YouTube className="w-full" videoId="-K_oLsvO7vM" allowFullScreen />
+            <LazyYoutube
+              videoId="-K_oLsvO7vM"
+              videoImage={videoImage1}
+              videoImageAlt="Cum se monteaza pompa de caldura?"
+            />
           </div>
         </div>
         <div className="sageata4">
@@ -81,7 +99,11 @@ const VideosSection = () => {
             <h3 className="titlu-video">POMPEI DE CĂLDURĂ?</h3>
           </div>
           <div>
-            <YouTube className="w-full" videoId="ke4goJJlj7o" allowFullScreen />
+            <LazyYoutube
+              videoId="ke4goJJlj7o"
+              videoImage={videoImage1}
+              videoImageAlt="Cum se monteaza pompa de caldura?"
+            />
           </div>
         </div>
       </div>
