@@ -8,6 +8,7 @@ import CertificationSection from "../components/CertificationSection";
 import ContactForm from "../components/ContactForm";
 import ButtonCTA from "../components/ButtonCTA";
 import Footer from "../components/Footer";
+import VideosSection2 from "../components/videosSection(inWorks)/VideosSection2";
 
 const Landing = () => {
   return (

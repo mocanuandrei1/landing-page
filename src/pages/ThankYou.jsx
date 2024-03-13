@@ -14,7 +14,7 @@ const ThankYou = () => {
         </h1>
       </div>
       <CheckIcon />
-      <div class="text-center">
+      <div className="text-center">
         <p className="text-[20px]">
           Cererea ta a fost &icirc;nregistrată cu următoarele informații:
         </p>

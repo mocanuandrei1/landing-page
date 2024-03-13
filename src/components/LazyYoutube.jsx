@@ -6,22 +6,37 @@ const LazyYoutube = (props) => {
   const [showVideo, setShowVideo] = useState(false);
   const { videoId, videoImage, videoImageAlt } = props;
 
+  const opts = {
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+
   const handleClick = () => {
     setShowVideo(true);
   };
 
   return (
-    <div className="w-full" onClick={handleClick}>
+    <div className="w-full p-2" onClick={handleClick}>
       {showVideo && (
-        <YouTube className="w-full" videoId={videoId} allowFullScreen />
+        <YouTube
+          className="w-full h-full"
+          videoId={videoId}
+          opts={opts}
+          allowFullScreen
+        />
       )}
       {!showVideo && (
-        <div>
-          <img src={videoImage} alt={videoImageAlt} />
+        <>
+          <img
+            className="h-[250px] w-full object-cover"
+            src={videoImage}
+            alt={videoImageAlt}
+          />
           <div className=" absolute">
             <YoutubeIcon />
           </div>
-        </div>
+        </>
       )}
     </div>
   );

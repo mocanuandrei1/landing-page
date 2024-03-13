@@ -1,0 +1,40 @@
+.buttons-container {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  z-index: 99999;
+}
+
+.buttons-container a {
+  width: 50%;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  height: 6vh;
+}
+
+.button.phone {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.whatsapp {
+  background-color: #25d366;
+  color: #fff;
+}

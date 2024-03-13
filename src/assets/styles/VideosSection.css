@@ -7,14 +7,12 @@
 .sectiune-video {
   padding: 0 50px;
 }
-
 .videoSectiune div {
   display: flex;
   border-radius: 30px;
   align-items: center;
   justify-content: center;
 }
-
 .videoSectiune {
   padding: 20px;
   background-color: #f41559;
@@ -27,15 +25,14 @@
 
 .videoSectiune div iframe {
   width: 100%;
-  padding: 30px;
-  height: 400px;
+  height: 250px;
   border: 0px;
 }
 
 .sectiuneVideoclipuri {
   display: grid;
   grid-template-columns: 28% 8% 28% 8% 28%;
-  grid-template-rows: minmax(0, 450px) 120px minmax(0, 450px);
+  grid-template-rows: minmax(0, 1fr) 120px minmax(0, 1fr);
   height: 100%;
   gap: 0px 0px;
 }
@@ -117,7 +114,7 @@
 @media screen and (max-width: 1380px) {
   .sectiuneVideoclipuri {
     grid-template-columns: 44% 12% 44%;
-    grid-template-rows: minmax(0, 550px) 110px minmax(0, 550px);
+    grid-template-rows: minmax(0, 1fr) 110px minmax(0, 1fr);
     grid-template-areas:
       "video1 sageata1 video2"
       ". . sageata2"
@@ -180,7 +177,6 @@
   }
   .videoSectiune div iframe {
     height: 300px;
-    padding: 15px;
   }
   .videoSectiune {
     padding: 10px;
