@@ -5,15 +5,15 @@ import "../assets/styles/MobileButtons.css";
 
 const MobileFooter = () => {
   return (
-    <div class="buttons-container">
+    <div className="buttons-container">
       <a href="tel:0744972001 ">
-        <button class="button phone">
+        <button className="button phone">
           <PhoneIcon />
           <p>Telefon</p>
         </button>
       </a>
       <a href="https://wa.me/+40744972001">
-        <button class="button whatsapp">
+        <button className="button whatsapp">
           <WhatsAppIcon />
           <p>WhatsApp</p>
         </button>

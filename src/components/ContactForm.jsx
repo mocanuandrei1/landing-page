@@ -51,22 +51,15 @@ const ContactForm = () => {
       .sendForm("service_2by0d8j", "template_8kpkbnc", form.current, {
         publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
-
-    navigate("/cerere-trimisa", {
-      state: {
-        name: formData.user_name,
-        email: formData.user_email,
-        number: formData.user_phone,
-      },
-    });
+      .then(() => {
+        navigate("/cerere-trimisa", {
+          state: {
+            name: formData.user_name,
+            email: formData.user_email,
+            number: formData.user_phone,
+          },
+        });
+      });
   };
 
   return (
