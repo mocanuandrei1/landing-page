@@ -6,7 +6,7 @@ import CountdownTimer from "./HeroSectionCountdown";
 
 const HeroSection = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
-  const targetDate = new Date("2024-04-25T23:59:59");
+  const targetDate = new Date("2024-04-25T00:00:00");
 
   return (
     <section>
