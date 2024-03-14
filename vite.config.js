@@ -7,7 +7,7 @@ import { compression } from "vite-plugin-compression2";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr(), compression()],
-  base: "/landing-page/",
+  base: "https://pompecaldura.abcenergy.ro/",
   define: {
     "process.env.VITE_EMAILJS_PUBLIC_KEY": JSON.stringify(
       process.env.VITE_EMAILJS_PUBLIC_KEY

@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/landing-page" element={<Landing />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/cerere-trimisa" element={<ThankYou />} />
       </Routes>
       {isMobile && <MobileFooter />}
