@@ -176,7 +176,7 @@ const ContactForm = () => {
             <Checkbox
               id="checkboxemail"
               name="socialmedia"
-              value="checkboxemail"
+              value="E-mail"
               onChange={handleCheckboxChange}
             />
             <Label htmlFor="checkboxemail" className="text-white text-xl">
@@ -187,7 +187,7 @@ const ContactForm = () => {
             <Checkbox
               id="ariston"
               name="socialmedia"
-              value="Ariston"
+              value="Sunt deja client Ariston"
               onChange={handleCheckboxChange}
             />
             <Label htmlFor="ariston" className="text-white text-xl">
