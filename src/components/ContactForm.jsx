@@ -174,6 +174,17 @@ const ContactForm = () => {
           </div>
           <div className="flex items-center gap-2">
             <Checkbox
+              id="checkboxemail"
+              name="socialmedia"
+              value="checkboxemail"
+              onChange={handleCheckboxChange}
+            />
+            <Label htmlFor="checkboxemail" className="text-white text-xl">
+              E-mail
+            </Label>
+          </div>
+          <div className="flex items-center gap-2">
+            <Checkbox
               id="ariston"
               name="socialmedia"
               value="Ariston"
